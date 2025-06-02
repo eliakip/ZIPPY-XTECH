@@ -130,7 +130,7 @@ const port = process.env.PORT || 9090;
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
-┃https://popkidpairfine.onrender.com/pair
+┃https://eliakimparing.onrender.com
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ POWERED BY ELIAKIM TECH
