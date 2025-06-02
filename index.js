@@ -72,7 +72,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("POPKID;;;", '');
+const sessdata = config.SESSION_ID.replace("ELIAKIM;;;", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -126,7 +126,7 @@ const port = process.env.PORT || 9090;
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ 🪆𝗥𝗘𝗣𝗢
-┃https://github.com/eliakip/Eliakim-Xmd
+┃https://github.com/eliakip/ZIPPY-XTECH
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
