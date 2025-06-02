@@ -48,7 +48,7 @@ const {
   const callHandler = require('./lib/callhandler');
   // ------------------------------------------
 
-  const ownerNumber = ['254732297194']
+  const ownerNumber = ['254745931715']
 
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -122,23 +122,23 @@ const port = process.env.PORT || 9090;
   // ---------------------------------------------
 
   let up = `╭══════════════⊷
-┃ ⚡𝗣𝗢𝗣𝗞𝗜𝗗 𝗫𝗧𝗘𝗖𝗛 𝗕𝗢𝗧
+┃ ⚡𝙀𝙇𝙄𝘼𝙆𝙄𝙈 𝙓𝙈𝘿 𝗕𝗢𝗧
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ 🪆𝗥𝗘𝗣𝗢
-┃https://github.com/Popkiddevs/POPKID-XTECH
+┃https://github.com/eliakip/Eliakim-Xmd
 ╰══════════════⊷
 ╭══════════════⊷
 ┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
 ┃https://popkidpairfine.onrender.com/pair
 ╰══════════════⊷
 ╭══════════════⊷
-┃ ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴏᴜʀ ʀᴇᴘᴏ
-┃ ғᴏʀ ᴄᴏᴜʀᴀɢ𝗘 ᴘʟᴇᴀsᴇ
+┃ POWERED BY ELIAKIM TECH
+┃ ELIAKIM XMD
 ╰══════════════⊷
 ╭══════════════⊷
-┃ 𝐏𝐎𝐏𝐊𝐈𝐃
-┃+254732297194
+┃ ELIAKIM
+┃+254745931715
 ╰══════════════⊷`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/e6rhto.jpg` }, caption: up })
 
@@ -158,7 +158,7 @@ const port = process.env.PORT || 9090;
       "🤧Life is 10% what happens to us and 90% how we react to it.❤️"
     ];
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    const bioText = `🧋ᴘᴏᴘᴋɪᴅ ᴍᴅ ɪs ᴀᴄᴛɪᴠᴇ🧋 | ${randomQuote}`;
+    const bioText = `🧋ELIAKIM- XMD | ${randomQuote}`;
 
     try {
       await conn.updateProfileStatus(bioText);
@@ -823,7 +823,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
 
   app.get("/", (req, res) => {
-  res.send("POPKID MD STARTED ✅");
+  res.send("ELIAKIM XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
